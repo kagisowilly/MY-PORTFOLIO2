@@ -14,9 +14,9 @@
                     <h1 class="display-1 fw-bold text-warning mt-5 ">Kagiso Mphayi</h1>
                     <div class="col-lg-6 mx-auto">
                         <div class="lead text-white">
-                            <p class="mt-3 text-white"><span>| Juniour Frontend Deverloper |</span>
-                                <span>Juniour Designer |</span>
-                                <span>Photographer |</span>
+                            <p class="mt-3 text-white"><span>| Frontend Developer |</span>
+                                <span> Designer |</span>
+                                <span> Photographer |</span>
                             </p>
 
                         </div>
