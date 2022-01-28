@@ -32,7 +32,7 @@
       </div>
 
       <div class="row justify-content-center pt-3">
-        <div class="col-lg-5 col-md-5">
+        <div class="col-lg-6 col-md-5">
           <table class="table">
             <thead>
               <tr>
@@ -55,7 +55,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col col-lg-5 col-md-5">
+        <div class="col col-lg-6 col-md-5">
           <table class="table">
             <thead>
               <tr>

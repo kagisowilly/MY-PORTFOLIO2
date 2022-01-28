@@ -1,0 +1,304 @@
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+
+
+/* GENERAL CSS */
+u {
+    text-decoration-color: orange;
+  }
+
+/* Navbar Section*/
+
+.nav-link {
+    text-align: center;
+  }
+  .nav-link:hover {
+    color: rgb(255, 176, 6) !important;
+  }
+  
+  .github:hover {
+    background-color: rgb(255, 176, 6) !important;
+    border-radius: 50%;
+  }
+  
+  .netlify:hover {
+    background-color: rgb(255, 176, 6) !important;
+    border-radius: 50%;
+  }
+  .navbar {
+    top: 0;
+  }
+  
+  .navbar-brand {
+    border-radius: 100%;
+    height: 100px;
+    width: 60x;
+    padding-bottom: 4px !important;
+    padding-top: 3px !important;
+    margin-top: 0px !important;
+    margin-bottom: 3px !important;
+  }
+  
+  .one {
+    display: grid;
+    margin-top: 20px;
+    padding-top: 100px;
+    overflow-x: hidden !important;
+  }
+  
+   .num-one {
+    height: 100vh;
+    margin-top: 0;
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(./background.jpg);
+    overflow-x: hidden;
+    background-position: center;
+  }
+  
+  
+    /* BACKGROUND COLOR */
+    hr {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    /* icons */
+    .icons {
+      height: 40px;
+      width: 40px;
+      line-height: 2;
+      border-radius: 100% !important;
+    }
+    
+  
+  
+    .icons:hover {
+      color: rgb(255, 176, 6) !important;
+    }
+    
+    .button-about {
+      width: 25%;
+    }
+    
+    .arrow {
+      height: 40px;
+      width: 40px;
+    }
+  
+  
+    .subtitlee {
+      padding-top: 100px;
+    }
+    
+    .image-col {
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+    }
+    
+    .profile2 {
+      height: auto;
+      width: 200px;
+      border-radius: 100%;
+      float: left;
+    }
+    
+  .p-bar,
+    .p-inner {
+      border-radius: 15px;
+    }
+    
+    .p-inner {
+      border-radius: 15px;
+      background-color: orange;
+    }
+   /* SKILLS */
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #aaa;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    min-height: 200px;
+    border: 2px #ccc solid;
+    color: #fff;
+  }
+  
+  /* CARD */
+  .card {
+      width: 50%;
+      height: 450px;
+      border-radius: 15px;
+    }
+    
+    .card-body {
+      overflow: auto;
+      background-color: #d4d9df;
+      text-align: center;
+    }
+      .card-img-top {
+      height: 150px;
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    /* TESTIMONIALS */
+    .card-img-top {
+        height: 150px;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .d-block {
+        border-radius: 50%;
+        height: 300px;
+        margin: auto;
+        width: 300px;
+      }
+      
+    
+    @media all and (max-width: 991px) {
+    .resu {
+      width: 80%;
+      background-color: #d4d9df;
+      border-radius: 15px;
+    }
+    .proji {
+      margin-left: 0px !important;
+    }
+    .testi {
+      margin-left: 0px !important;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .resu {
+      width: 80%;
+      background-color: #d4d9df;
+      border-radius: 15px;
+    }
+   .nav-link {
+      text-align: end;
+      /* display: inline-block !important; */
+      padding: 0px;
+      margin: 3px;
+    }
+    .navbar-brand {
+      border-radius: 100%;
+      height: 70px;
+      width: 40x;
+      padding-bottom: 4px !important;
+      padding-top: 3px !important;
+      margin-top: 0px !important;
+      margin-bottom: 3px !important;
+    }
+    .subtitlee {
+      padding-top: 80px;
+    }
+  
+    .image-col {
+      height: 200px;
+      width: 200px;
+      border-radius: 100%;
+    }
+  
+    .profile2 {
+      height: auto;
+      width: 180px;
+      border-radius: 100%;
+    }
+  
+    .card {
+      width: 50%;
+      /* height: px; */
+  
+      border-radius: 15px;
+    }
+  
+    .card-image {
+      display: block;
+      max-width: 100%;
+      height: 200px;
+    }
+    .proji {
+      margin-left: 0px !important;
+    }
+    .testi {
+      margin-left: 0px !important;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .resu {
+      width: 80%;
+      background-color: #d4d9df;
+      border-radius: 15px;
+    }
+    .profile2 {
+      height: auto;
+      width: 150px;
+      border-radius: 100%;
+      float: none;
+      display: inline-block;
+    }
+  
+    .abountcont {
+      text-align: center;
+    }
+    .button-about {
+      width: 40%;
+    }
+    .carousel-item {
+      background-color: #d4d9df;
+      border-radius: 15px;
+      height: 350px;
+    }
+  
+    .navbar-brand {
+      border-radius: 100%;
+      height: 50px;
+      width: 30x;
+      padding-bottom: 4px !important;
+      padding-top: 3px !important;
+      margin-top: 0px !important;
+      margin-bottom: 3px !important;
+    }
+    .subtitlee {
+      padding-top: 56px;
+    }
+    .proji {
+      margin-left: 0px !important;
+    }
+    .testi {
+      margin-left: 0px !important;
+    }
+  }
+  /* @media (min-width: 576px){
+  .col-sm-12 {
+      flex: none !important
+      ;
+      width: 100%;
+  }
+  } */
+  @media (min-width: 992px) {
+    .col-lg-10 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+  }

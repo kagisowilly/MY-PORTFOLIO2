@@ -51,164 +51,57 @@
 
 <Home/>
 <About/>
+<Resume/>
 <Skills/>
+<Projects/>
+<Testimonials/>
+<Contact/>
   
+      <!-- Footer -->
+    <footer class="page-footer font-small teal pt-2 bg-dark">
+        <div class="container text-center text-md-left">
+            <div class="d-grid  gap-4 d-flex justify-content-center">
+                <a target="_blank" href="https://github.com/Kagisomphayi" class="text-muted  rounded icons "><i
+                        class="bi icn bi-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kagiso-kagiso-5aab71219/"
+                    class="text-muted  rounded icons "><i class="bi icn bi-linkedin "></i></a>
+                <a target="_blank" href="https://twitter.com/K_Mphayi" class="text-muted  rounded icons"><i
+                        class="bi icn bi-twitter  "></i></a>
+            </div>
+            <div class="container">
+                <hr class=" my-1 text-white">
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center mb-0 py-1 text-muted h5">©2021 Copyright: Kagiso Mphayi
+            </div>
+            <!-- Copyright -->
+            </div>
+
+    </footer>
+
+  
+
 </template>
 
 <script>
 
 import Home from './components/Home.vue';
-
 import About from './components/About.vue';
+import Resume from './components/Resume.vue';
 import Skills from './components/Skills.vue';
+import Projects from './components/Projects.vue';
+import Testimonials from './components/Testimonials.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
   components: {
-    Home, About,Skills
+    Home, About, Resume,Skills,Projects,Testimonials,Contact
   }
 }
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
-
-
-/* Navbar Section*/
-
-.nav-link {
-  text-align: center;
-}
-.nav-link:hover {
-  color: rgb(255, 176, 6) !important;
-}
-
-.github:hover {
-  background-color: rgb(255, 176, 6) !important;
-  border-radius: 50%;
-}
-
-.netlify:hover {
-  background-color: rgb(255, 176, 6) !important;
-  border-radius: 50%;
-}
-.navbar {
-  top: 0;
-}
-
-.navbar-brand {
-  border-radius: 100%;
-  height: 100px;
-  width: 60x;
-  padding-bottom: 4px !important;
-  padding-top: 3px !important;
-  margin-top: 0px !important;
-  margin-bottom: 3px !important;
-}
-
-.one {
-  display: grid;
-  margin-top: 20px;
-  padding-top: 100px;
-  overflow-x: hidden !important;
-}
-
- .num-one {
-  height: 100vh;
-  margin-top: 0;
-  background-image: url("./assets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url(./assets/background.jpg);
-  overflow-x: hidden;
-  background-position: center;
-}
-
-
-  /* BACKGROUND COLOR */
-  hr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  /* icons */
-  .icons {
-    height: 40px;
-    width: 40px;
-    line-height: 2;
-    border-radius: 100% !important;
-  }
-  
-  /* form {
-    width: 40% !important;
-  } */
-  .contactMe {
-    width: 100%;
-    margin: 0px;
-  }
-  .icons:hover {
-    color: rgb(255, 176, 6) !important;
-  }
-  
-  .button-about {
-    width: 25%;
-  }
-  
-  .arrow {
-    height: 40px;
-    width: 40px;
-  }
-
-
-  .subtitlee {
-    padding-top: 100px;
-  }
-  
-  .image-col {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-  }
-  
-  .profile2 {
-    height: auto;
-    width: 200px;
-    border-radius: 100%;
-    float: left;
-  }
-  
-.p-bar,
-  .p-inner {
-    border-radius: 15px;
-  }
-  
-  .p-inner {
-    border-radius: 15px;
-    background-color: orange;
-  }
- /* SKILLS */
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #aaa;
-  margin: 20px 0;
-  padding: 10px;
-  width: 100%;
-  min-height: 200px;
-  border: 2px #ccc solid;
-  color: #fff;
-}
 
 </style>
