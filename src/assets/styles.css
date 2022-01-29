@@ -81,13 +81,24 @@ u {
       line-height: 2;
       border-radius: 100% !important;
     }
-    
-  
-  
+
     .icons:hover {
-      color: rgb(255, 176, 6) !important;
+      color: rgb(204, 156, 24) !important;
     }
+
     
+    
+    .social-icon{
+font-size: 35px !important;
+color: darkgoldenrod;
+    }
+
+    .social-icon:hover{
+        color: white;
+    }
+
+    
+
     .button-about {
       width: 25%;
     }
@@ -124,20 +135,7 @@ u {
       border-radius: 15px;
       background-color: orange;
     }
-   /* SKILLS */
-  .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #aaa;
-    margin: 20px 0;
-    padding: 10px;
-    width: 100%;
-    min-height: 200px;
-    border: 2px #ccc solid;
-    color: #fff;
-  }
-  
+
   /* CARD */
   .card {
       width: 50%;
@@ -170,6 +168,7 @@ u {
         margin: auto;
         width: 300px;
       }
+      
       
     
     @media all and (max-width: 991px) {

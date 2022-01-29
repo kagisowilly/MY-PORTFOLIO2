@@ -1,6 +1,6 @@
 <template>
       <!-- Testimonials -->
-    <section class="testimonial-background  " style="background-color: rgb(242 242 252); height:80vh;" id="testimonials">
+    <section class="testimonial-background  " style="background-color: rgb(242 242 252);" id="testimonials">
 
         <div class="container">
             <h1 class="text-center display-6 mb-5  fw-bold subtitlee"><u>Testimonials</u> </h1>
