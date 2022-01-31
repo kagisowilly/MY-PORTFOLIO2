@@ -14,40 +14,42 @@
                 <span> Photographer |</span>
               </p>
             </div>
-
-            <div class="">
-              <a href="#about" class="text-white rounded-pill"
-                ><button
-                  type="button"
-                  class="rounded-pill mt-4 btn btn-sm btn-warning button-about"
-                >
-                  <h4 class="text-black mb-0 abt">About me <br /></h4>
-                  <i class="bi bi-arrow-down-short"></i></button
+            <div class="d-grid gap-4 d-flex home-icon justify-content-center">
+              <a
+                target="_blank"
+                href="https://github.com/Kagisomphayi"
+                class="text-white icons"
+                ><i class="bi icn social-icon bi-github"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/kagiso-kagiso-5aab71219/"
+                class="text-white icons"
+                ><i class="bi icn social-icon bi-linkedin"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://twitter.com/K_Mphayi"
+                class="text-white icons"
+                ><i class="bi icn social-icon bi-twitter"></i
               ></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="d-grid gap-4 d-flex home-icon justify-content-center">
-      <a
-        target="_blank"
-        href="https://github.com/Kagisomphayi"
-        class="text-white icons"
-        ><i class="bi icn social-icon bi-github"></i
-      ></a>
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/kagiso-kagiso-5aab71219/"
-        class="text-white icons"
-        ><i class="bi icn social-icon bi-linkedin"></i
-      ></a>
-      <a
-        target="_blank"
-        href="https://twitter.com/K_Mphayi"
-        class="text-white icons"
-        ><i class="bi icn social-icon bi-twitter"></i
-      ></a>
+
+    <div class="text-center">
+      <div class="justify-content-center">
+        <a href="#about" class="text-white rounded-pill"
+          ><button
+            type="button"
+            class="rounded-pill mt-4 btn btn-sm btn-warning button-about"
+          >
+            <h4 class="text-black mb-0 abt">About me</h4>
+            <i class="bi boot-arrow bi-arrow-down-short"></i></button
+        ></a>
+      </div>
     </div>
   </section>
 
@@ -60,4 +62,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.boot-arrow {
+  font-size: 25px;
+}
+</style>

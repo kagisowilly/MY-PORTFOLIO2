@@ -97,5 +97,31 @@ export default {
 </script>
 
 <style>
+      .d-block {
+        border-radius: 50%;
+        height: 200px;
+        margin: auto;
+        width: 200px;
+      }
+.carousel-item {
+  background-color: #d4d9df;
+  border-radius: 15px;
+  height: 450px;
+}
 
+.carousel-control-prev-icon {
+  background-color: rgb(223, 146, 4);
+  margin-bottom: 230px;
+}
+
+.carousel-control-prev {
+  opacity: 0.3 !important;
+}
+.carousel-control-next {
+  opacity: 0.3 !important;
+}
+.carousel-control-next-icon {
+  background-color: rgb(230, 161, 32);
+  margin-bottom: 230px;
+}
 </style>

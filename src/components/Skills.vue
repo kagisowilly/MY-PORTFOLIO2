@@ -1,68 +1,68 @@
 <template>
-  <section id="skills">
+  <section id="skills" style="background-color: rgb(242 242 252)">
 
 <h1 class="text-center display-6 subtitlee fw-bold mb-5"><u>Skills</u></h1>
       
     
-    <div class="container col-lg-12">
+    <div class="container col-lg-6">
       <div class="col-lg-10"></div>
       <div class="row justify-content-center">
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/HTMLL.png"
-              class="skills img-thumbnail"
+              class="skills img-thumbnail shadow"
               alt="..."
             />
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/CSS.png"
-              class="skills img-thumbnail"
+              class="skills img-thumbnail shadow"
               alt="..."
             />
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/JS.png"
-              class="skills img-thumbnail"
-              alt="..."
+              class="skills img-thumbnail shadow"
+              alt="..." shadow
             />
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/vue-logo.png"
-              class="skills img-thumbnail"
+              class="skills img-thumbnail shadow"
               alt="..."
             />
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/MYsql.png"
-              class="skills img-thumbnail"
+              class="skills img-thumbnail shadow"
               alt="..."
             />
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-4 col-xs-4 col-sm-4 col-md-4">
           <div class="box">
             <img
               src="@/assets/Github.png"
-              class="skills img-thumbnail"
+              class="skills img-thumbnail shadow"
               alt="..."
             />
           </div>
@@ -85,8 +85,6 @@ export default {};
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
-  padding: 10px;
   width: 100%;
   min-height: 200px;
 }

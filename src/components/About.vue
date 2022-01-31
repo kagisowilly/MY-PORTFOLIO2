@@ -105,6 +105,10 @@
 
       </div>
     </div>
+
+            <div class="container hr">
+            <hr class="">
+        </div>
   </section>
 </template>
 

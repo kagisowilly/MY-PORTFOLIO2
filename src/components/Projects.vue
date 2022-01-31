@@ -13,7 +13,7 @@
           <div
             v-for="project of projects"
             :key="project.title"
-            class="col-lg-3"
+            class="col-lg-3 col-md-6"
             style="display: flex; justify-content: center"
           >
             <div class="card shadow ani-card" style="width: 18rem">
@@ -39,12 +39,12 @@
                   target="_blank"
                   :href="project.netlify"
                   class="card-link"
-                  ><button class="project-button">Netlify</button></a>
+                  ><button class="btn btn-warning mt-0 rounded-pill">Netlify</button></a>
                 <a
                   target="_blank"
                   :href="project.github"
-                  class="card-link"
-                  ><button>Github</button></a>
+                  class="card-link "
+                  ><button class="btn btn-warning mt-0 rounded-pill">Github</button></a>
               </div>
             </div>
           </div>
@@ -88,10 +88,7 @@
                   ><img
                     src="images/projects/github.png"
                     class="github"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
+                    alt="github"https://github.com/Kagisomphayi/My-Portfolio
           </div> -->
           <!-- bhvghjg -->
           <!-- <div class="col-lg-3" style="display: flex; justify-content: center">
@@ -283,44 +280,62 @@ data(){
         github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
         netlify:"https://kagisomphayiroadrunner.netlify.app",
         description: "A race between road runner and sonic.",
-        img: "@/assets/sonicproject-min.png",
+        img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
         // html:"HTML"
       },
       {
-        title: "GEL-NIMBUS 23",
-        github: "",
-        netlify:"",
-        description: "",
-        img: "https://images.asics.com/is/image/asics/1011B004_404_SR_RT_GLB?$product$",
+        title: "Ecommerce Website",
+        github: "https://github.com/Kagisomphayi/ASICSSTORE",
+        netlify:"https://kagisomphayiasics.netlify.app/",
+        description: "Ecommerce website built with JS, HTML and CSS.",
+        img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
       },
       {
-        title: "Edge II Duffle MD",
-        github: "",
-        netlify:"",
-        description: "",
-        img: "https://images.asics.com/is/image/asics/ZR3435_9490_AC_FT_AAC?$sfcc-product$",
+        title: "Cloning a website",
+        github: "https://github.com/Kagisomphayi/bootstrap",
+        netlify:"https://kagisomphayiclone.netlify.app",
+        description: "DOOB Website Clone",
+        img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
       },
       {
-        title: "FUJI LITE 2",
-        github: "",
-        netlify:"",
-        description: "",
-        img: "https://images.asics.com/is/image/asics/1011B209_400_SR_RT_GLB?$product$",
+        title: "Calculator",
+        github: "https://github.com/Kagisomphayi/Calculator",
+        netlify:"https://kagisomphayicalculator.netlify.app/",
+        description: "Building a functioning calculator",
+        img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
+      },
+      
+                {
+        title: "Sonic vs Road Runner",
+        github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
+        netlify:"https://kagisomphayiroadrunner.netlify.app",
+        description: "A race between road runner and sonic.",
+        img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
+        // html:"HTML"
       },
       {
-        title: "JaGEL-KAYANO 28pan",
-        github: "",
-        netlify:"",
-        description:"",
-        img: "https://images.asics.com/is/image/asics/1011B189_402_SR_RT_GLB?$zoom$",
+        title: "Ecommerce Website",
+        github: "https://github.com/Kagisomphayi/ASICSSTORE",
+        netlify:"https://kagisomphayiasics.netlify.app/",
+        description: "Ecommerce website built with JS, HTML and CSS.",
+        img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
       },
       {
-        title: "SB TIC POLO",
-        github: "",
-        netlify:"",
-        description:"",
-        img: "https://images.asics.com/is/image/asics/2113A060_401_GM_FT_GLB?$zoom$",
-      },]
+        title: "Cloning a website",
+        github: "https://github.com/Kagisomphayi/bootstrap",
+        netlify:"https://kagisomphayiclone.netlify.app",
+        description: "DOOB Website Clone",
+        img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
+      },
+      {
+        title: "Calculator",
+        github: "https://github.com/Kagisomphayi/Calculator",
+        netlify:"https://kagisomphayicalculator.netlify.app/",
+        description: "Building a functioning calculator",
+        img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
+      },
+      
+]
          
   } 
    }

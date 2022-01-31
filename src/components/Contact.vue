@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
     <div class="container justify-content-center">
-      <form @submit.prevent="handleSubmit" class="contactMe" role="form" action="https://formspree.io/f/xwkylkad" method="POST">
+      <form @submit.prevent="handleSubmit" class="contactMe">
         <h2 class="text-center display-6 fw-bold mb-3 subtitlee ">
           <u>Contact Me</u>
         </h2>
@@ -25,7 +25,7 @@
 
         <div class="submit mb-5">
           <button class="rounded-pill mb-3  btn btn-warning button-about">
-            <h5 class="text-black mb-0 abt">Submit</h5>
+            <h5 class="text-black mb-0">Submit</h5>
           </button>
         </div>
 

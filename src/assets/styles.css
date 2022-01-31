@@ -15,6 +15,7 @@ u {
 
 /* Navbar Section*/
 
+
 .nav-link {
     text-align: center;
   }
@@ -99,14 +100,12 @@ color: darkgoldenrod;
 
     
 
-    .button-about {
-      width: 25%;
-    }
-    
+
+/*     
     .arrow {
       height: 40px;
       width: 40px;
-    }
+    } */
   
   
     .subtitlee {
@@ -139,14 +138,16 @@ color: darkgoldenrod;
   /* CARD */
   .card {
       width: 50%;
-      height: 450px;
+      height: 400px;
       border-radius: 15px;
     }
     
     .card-body {
       overflow: auto;
-      background-color: #d4d9df;
+      background-color: rgb(242 242 252) ;
       text-align: center;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
     }
       .card-img-top {
       height: 150px;
@@ -162,18 +163,13 @@ color: darkgoldenrod;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
       }
-      .d-block {
-        border-radius: 50%;
-        height: 300px;
-        margin: auto;
-        width: 300px;
-      }
+
       
       
     
     @media all and (max-width: 991px) {
     .resu {
-      width: 80%;
+      width: 100%;
       background-color: #d4d9df;
       border-radius: 15px;
     }
@@ -187,7 +183,7 @@ color: darkgoldenrod;
   
   @media all and (max-width: 767px) {
     .resu {
-      width: 80%;
+      width: 100%;
       background-color: #d4d9df;
       border-radius: 15px;
     }
@@ -244,7 +240,7 @@ color: darkgoldenrod;
   
   @media all and (max-width: 600px) {
     .resu {
-      width: 80%;
+      width: 90%;
       background-color: #d4d9df;
       border-radius: 15px;
     }
@@ -259,11 +255,11 @@ color: darkgoldenrod;
     .abountcont {
       text-align: center;
     }
-    .button-about {
+    /* .button-about {
       width: 40%;
-    }
+    } */
     .carousel-item {
-      background-color: #d4d9df;
+      background-color: #eaeff3;
       border-radius: 15px;
       height: 350px;
     }
@@ -300,4 +296,43 @@ color: darkgoldenrod;
       width: 100%;
     }
   
+  }
+
+  /* Animation */
+  .abt {
+    background: linear-gradient(to right, #000000 0, white 10%, #0c0a0a 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  .abt {
+    background: linear-gradient(to right, #000000 0, white 10%, #0c0a0a 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 10s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 180px;
+    }
+  
+    25% {
+      background-position: 0;
+    }
+  
+    50% {
+      background-position: 180px;
+    }
+    75% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 180px;
+    }
   }
