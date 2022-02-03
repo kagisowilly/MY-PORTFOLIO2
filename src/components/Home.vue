@@ -3,9 +3,9 @@
   <section class="num-one" id="home">
     <!-- Landing-->
     <div class="container one">
-      <div class="row" style="margin-top: 10%; margin-bottom: 18%">
+      <div class="row home-content" >
         <div class="text-center col-">
-          <h1 style="color: rgb(155, 44, 155)" class="display-1 fw-bold mt-5">
+          <h1 style="color: rgb(155, 44, 155)" class="display-1 main-title fw-bold mt-5">
             Kagiso Mphayi
           </h1>
           <div class="col-lg-6 mx-auto">
@@ -67,5 +67,13 @@ export default {};
 }
 .boot-arrow:hover{
   color: black;
+}
+.main-title{
+  font-size: 110px;
+}
+
+.home-content{
+margin-top: 10%;
+margin-bottom: 18%;
 }
 </style>

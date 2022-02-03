@@ -130,4 +130,11 @@ table.table-bordered > tbody > tr > td{
     border:1px solid rgb(116, 116, 116);
 }
 
+td,tr{
+  font-size: large;
+}
+th{
+  font-size: larger;
+}
+
 </style>

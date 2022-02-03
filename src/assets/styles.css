@@ -280,6 +280,10 @@ color: rgb(155, 44, 155);
       
       border-radius: 15px;
     }
+    .main-title{
+      font-size: 100px;
+    }
+
     .text-content{
       padding-left: 10%;
       padding-right: 10%;
@@ -336,6 +340,15 @@ color: rgb(155, 44, 155);
     .resu {
       width: 90%;
       border-radius: 15px;
+    }
+
+    .home-content{
+      margin-top: 0%;
+      margin-bottom: 18%;
+      }
+    .main-title{
+      font-size: 80px;
+      margin-top: 0px !important;
     }
     .text-content{
       padding-left: 5%;
@@ -394,6 +407,8 @@ color: rgb(155, 44, 155);
     }
   
   }
+
+
 
   /* Animation */
   .abt {
