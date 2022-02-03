@@ -9,8 +9,11 @@
 
 
 /* GENERAL CSS */
+p{
+  font-size: larger;
+}
 u {
-    text-decoration-color: orange;
+    text-decoration-color: rgb(155, 44, 155);
   }
 
 /* Navbar Section*/
@@ -20,16 +23,16 @@ u {
     text-align: center;
   }
   .nav-link:hover {
-    color: rgb(255, 176, 6) !important;
+    color: rgb(155, 44, 155) !important;
   }
   
   .github:hover {
-    background-color: rgb(255, 176, 6) !important;
+    background-color: rgb(155, 44, 155) !important;
     border-radius: 50%;
   }
   
   .netlify:hover {
-    background-color: rgb(255, 176, 6) !important;
+    background-color: rgba(184, 6, 255, 0.22) !important;
     border-radius: 50%;
   }
   .navbar {
@@ -45,6 +48,10 @@ u {
     margin-top: 0px !important;
     margin-bottom: 3px !important;
   }
+  .navbar-toggler{
+
+
+  }
   
   .one {
     display: grid;
@@ -58,22 +65,29 @@ u {
     margin-top: 0;
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
       ),
       url(./background.jpg);
     overflow-x: hidden;
+    overflow-y: hidden;
     background-position: center;
   }
-  
+  .btn{
+    background-color:rgb(155, 44, 155)!important;
+    color: white;
+    border: 2px solid rgb(39, 3, 39);
+    
+  }
   
     /* BACKGROUND COLOR */
     hr {
       margin-top: 0px;
       margin-bottom: 0px;
+      background-color: black;
     }
     /* icons */
     .icons {
@@ -84,14 +98,14 @@ u {
     }
 
     .icons:hover {
-      color: rgb(204, 156, 24) !important;
+      color:rgb(155, 44, 155) !important;
     }
 
     
     
     .social-icon{
 font-size: 35px !important;
-color: darkgoldenrod;
+color: rgb(155, 44, 155);
     }
 
     .social-icon:hover{
@@ -110,6 +124,7 @@ color: darkgoldenrod;
   
     .subtitlee {
       padding-top: 100px;
+      color: rgb(192, 175, 211);
     }
     
     .image-col {
@@ -117,10 +132,13 @@ color: darkgoldenrod;
       width: 300px;
       border-radius: 50%;
     }
+
+    /* projects */
+
     
     .profile2 {
       height: auto;
-      width: 200px;
+      width: 250px;
       border-radius: 100%;
       float: left;
     }
@@ -131,7 +149,7 @@ color: darkgoldenrod;
     }
     
     .p-inner {
-      border-radius: 15px;
+
       background-color: orange;
     }
 
@@ -139,40 +157,108 @@ color: darkgoldenrod;
   .card {
       width: 50%;
       height: 400px;
-      border-radius: 15px;
+
     }
     
     .card-body {
       overflow: auto;
-      background-color: rgb(242 242 252) ;
+      background-color: black ;
       text-align: center;
-      border-bottom-left-radius: 15px;
-      border-bottom-right-radius: 15px;
+
     }
       .card-img-top {
       height: 150px;
       width: 100%;
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
+
     }
 
     /* TESTIMONIALS */
     .card-img-top {
         height: 150px;
         width: 100%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+
       }
 
+      .text-content{
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
+      /* Resume */
+
+    .education-work{
+      margin-top: 0;
+      background-image: url("/background3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(./background3.jpg);
+      overflow-x: hidden;
+      background-position: center;
+    }
+
+    #skills{
+      margin-top: 0;
+      background-image: url("/background4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(./background4.jpg);
+      overflow-x: hidden;
+      background-position: center;
+    }
+
+    .projects{
+      margin-top: 0;
+      background-image: url("/background5.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(./background5.jpg);
+      overflow-x: hidden;
+      background-position: center;
+ }
+
+ .testimonial-background{
+  margin-top: 0;
+  background-image: url("/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./background2.jpg);
+  overflow-x: hidden;
+  background-position: center;
+ }
+
+
+
       
-      
-    
+
     @media all and (max-width: 991px) {
     .resu {
       width: 100%;
-      background-color: #d4d9df;
+
       border-radius: 15px;
+  
     }
+
+
     .proji {
       margin-left: 0px !important;
     }
@@ -180,12 +266,23 @@ color: darkgoldenrod;
       margin-left: 0px !important;
     }
   }
+  .resu {
+    width: 100%;
+    /* background-color: #d4d9df; */
+    border-radius: 15px;
+    /* border: 1px solid #fff; */
+    box-shadow: rgba(255, 255, 255, 1) 0px 5px 15px;
+  }
   
   @media all and (max-width: 767px) {
     .resu {
       width: 100%;
-      background-color: #d4d9df;
+      
       border-radius: 15px;
+    }
+    .text-content{
+      padding-left: 10%;
+      padding-right: 10%;
     }
    .nav-link {
       text-align: end;
@@ -220,9 +317,6 @@ color: darkgoldenrod;
   
     .card {
       width: 50%;
-      /* height: px; */
-  
-      border-radius: 15px;
     }
   
     .card-image {
@@ -241,8 +335,11 @@ color: darkgoldenrod;
   @media all and (max-width: 600px) {
     .resu {
       width: 90%;
-      background-color: #d4d9df;
       border-radius: 15px;
+    }
+    .text-content{
+      padding-left: 5%;
+      padding-right: 5%;
     }
     .profile2 {
       height: auto;
@@ -255,14 +352,14 @@ color: darkgoldenrod;
     .abountcont {
       text-align: center;
     }
-    /* .button-about {
-      width: 40%;
-    } */
-    .carousel-item {
-      background-color: #eaeff3;
-      border-radius: 15px;
-      height: 350px;
+    .button-about {
+      color:rgb(155, 44, 155);
     }
+
+
+    /* .testimonial-background{
+      height: 100;
+    } */
   
     .navbar-brand {
       border-radius: 100%;
@@ -300,22 +397,16 @@ color: darkgoldenrod;
 
   /* Animation */
   .abt {
-    background: linear-gradient(to right, #000000 0, white 10%, #0c0a0a 20%);
+    background: linear-gradient(to right, #ffffff 0, rgb(255, 255, 255) 10%, #d496e7 20%);
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 10s infinite linear;
     animation-fill-mode: forwards;
+    color: white !important;
   }
   
-  .abt {
-    background: linear-gradient(to right, #000000 0, white 10%, #0c0a0a 20%);
-    background-position: 0;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 10s infinite linear;
-    animation-fill-mode: forwards;
-  }
+
   
   @keyframes shine {
     0% {

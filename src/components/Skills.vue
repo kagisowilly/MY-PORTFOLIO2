@@ -1,7 +1,10 @@
 <template>
-  <section id="skills" style="background-color: rgb(242 242 252)">
+  <section id="skills" style="background-color:black">
 
-<h1 class="text-center display-6 subtitlee fw-bold mb-5"><u>Skills</u></h1>
+<h1 class="text-center display-6 subtitlee fw-bold"><u>Skills</u></h1>
+        <div id="emailHelp" class="pb-3 form-text text-center">
+         <p>My Skills</p> 
+        </div>
       
     
     <div class="container col-lg-6">
@@ -69,10 +72,11 @@
         </div>
       </div>
     </div>
+    <div class="container hr">
+      <hr class="bg-white" >
+    </div>
   </section>
-  <div class="container hr">
-    <hr class="bg-dark" />
-  </div>
+
 </template>
 
 <script>

@@ -3,9 +3,11 @@
   <section class="num-one" id="home">
     <!-- Landing-->
     <div class="container one">
-      <div class="row" style="margin-top: 18%; margin-bottom: 18%">
+      <div class="row" style="margin-top: 10%; margin-bottom: 18%">
         <div class="text-center col-">
-          <h1 class="display-1 fw-bold text-warning mt-5">Kagiso Mphayi</h1>
+          <h1 style="color: rgb(155, 44, 155)" class="display-1 fw-bold mt-5">
+            Kagiso Mphayi
+          </h1>
           <div class="col-lg-6 mx-auto">
             <div class="lead text-white">
               <p class="mt-3 text-white">
@@ -36,26 +38,22 @@
             </div>
           </div>
         </div>
+        <div class="text-center mt-5">
+          <a href="#about" class="text-white rounded-pill"
+            ><button
+              type="button"
+              class="rounded-pill mt-4 btn btn-sm btn-warning button-about"
+            >
+              <h4 class="mb-0 abt">About me</h4>
+              <i class="bi boot-arrow bi-arrow-down-short"></i>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="text-center">
-      <div class="justify-content-center">
-        <a href="#about" class="text-white rounded-pill"
-          ><button
-            type="button"
-            class="rounded-pill mt-4 btn btn-sm btn-warning button-about"
-          >
-            <h4 class="text-black mb-0 abt">About me</h4>
-            <i class="bi boot-arrow bi-arrow-down-short"></i></button
-        ></a>
-      </div>
-    </div>
+    <div class="text-center"></div>
   </section>
-
-  <div class="container hr">
-    <hr class="bg-dark" />
-  </div>
 </template>
 
 <script>
@@ -65,5 +63,9 @@ export default {};
 <style>
 .boot-arrow {
   font-size: 25px;
+  color:white;
+}
+.boot-arrow:hover{
+  color: black;
 }
 </style>

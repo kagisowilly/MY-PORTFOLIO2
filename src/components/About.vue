@@ -1,19 +1,24 @@
 <template>
   <section
+
+  
     class="about-section"
     id="about"
-    style="background-color: rgb(242 242 252)"
+    style="background-color: black"
   >
-    <div class="container pb-3" style="background-color: rgb(242 242 252)">
+
+    <div class="container pb-3" style="background-color: black">
       <h1 class="text-center display-6 subtitlee fw-bold mb-5"><u>About</u></h1>
-      <h3 class="text-center">Introduction</h3>
-      <div class="row justify-content-center">
+                <div class="text-center "><h3  class="text-white intro">Introduction</h3></div>
+      <div class="row justify-content-center text-white">
         <div class="col col-lg-10 abountcont col-md-10">
           <img
             src="@/assets/profile-min.jpg"
             alt="profile"
             class="img-responsive profile2"
           />
+
+          
           <p>
             I am a hard-working individual who never shies away from a
             challenge. I am always willing to help the person next to me.
@@ -33,7 +38,7 @@
 
       <div class="row justify-content-center pt-3">
         <div class="col-lg-6 col-md-5">
-          <table class="table">
+          <table class="table  text-white table-bordered">
             <thead>
               <tr>
                 <th scope="col">Personal Details</th>
@@ -41,25 +46,25 @@
             </thead>
             <tbody>
               <tr>
-                <td><b>Full name:</b> Kagiso Mphayi</td>
+                <td><b class="text-muted">Full name:</b> Kagiso Mphayi</td>
               </tr>
               <tr>
-                <td><b>Date of birth:</b> 01/07/1996</td>
+                <td><b class="text-muted">Date of birth:</b> 01/07/1996</td>
               </tr>
               <tr>
-                <td><b>Location:</b> Cape Town,South Africa</td>
+                <td><b class="text-muted">Location:</b> Cape Town,South Africa</td>
               </tr>
               <tr>
-                <td><b>Cell Phone number:</b> 079 928 2407</td>
+                <td><b class="text-muted">Cell Phone number:</b> 079 928 2407</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="col col-lg-6 col-md-5">
-          <table class="table">
+          <table class="table  text-white table-bordered">
             <thead>
-              <tr>
-                <th scope="col">Passion Board</th>
+              <tr class="text-white">
+                <th scope="col text-muted">Passion Board</th>
               </tr>
             </thead>
             <tbody>
@@ -80,7 +85,7 @@
         </div>
 
         <div class="col col-lg-10 col-md-10">
-          <table class="table">
+          <table class="table  text-white table-bordered">
             <thead>
               <tr>
                 <th scope="col">Soft Skills</th>
@@ -107,7 +112,7 @@
     </div>
 
             <div class="container hr">
-            <hr class="">
+            <hr class=" bg-white">
         </div>
   </section>
 </template>
@@ -116,4 +121,13 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+
+table.table-bordered > thead > tr > th{
+    border:1px solid rgb(116, 116, 116);
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid rgb(116, 116, 116);
+}
+
+</style>

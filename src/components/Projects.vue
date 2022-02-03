@@ -3,12 +3,12 @@
   <section
     id="projects"
     class="projects"
-    style="background-color: rgb(242 242 252)"
+    style="background-color: black"
   >
     <div class="container">
       <div class="pb-5 justify-content-center">
         <h1 class="text-center display-6 fw-bold subtitlee"><u>Projects</u></h1>
-        <p class="text-center mb-5">Below are some of the projects I've done</p>
+        <p class="text-center text-muted mb-5">Below are some of the projects I've done</p>
         <div class="row col-lg-12 proji" style="row-gap: 30px">
           <div
             v-for="project of projects"
@@ -23,8 +23,8 @@
                 alt="..."
               />
               <div class="card-body">
-                <h4 class="card-title">{{project.title}}</h4>
-                <p class="card-text">{{project.description}}</p>
+                <h4 class="card-title text-white">{{project.title}}</h4>
+                <p class="card-text text-white">{{project.description}}</p>
 
               <!-- <ul class="list-group px-0 list-group-flush">
                 <li class="list-group-item">{{project.html}}</li>
@@ -67,7 +67,7 @@
               </div>
               <ul class="list-group px-0 list-group-flush">
                 <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">CSS</li>proj
                 <li class="list-group-item">JS</li>
               </ul>
               <div class="card-body">
@@ -76,7 +76,7 @@
                   href="https://kagisomphayiasics.netlify.app/"
                   class="card-link"
                 >
-                  <img
+                  <imgproj
                     src="images/projects/netlify_icon_158189.png"
                     class="netlify"
                     alt="Netlify"
@@ -264,7 +264,7 @@
       </div>
     </div>
     <div class="container hr">
-      <hr class="" />
+      <hr class="bg-white" >
     </div>
   </section>
 </template>
@@ -279,7 +279,7 @@ data(){
         title: "Sonic vs Road Runner",
         github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
         netlify:"https://kagisomphayiroadrunner.netlify.app",
-        description: "A race between road runner and sonic.",
+        description: "A race between road runner and sonic.(CSS & HTML)",
         img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
         // html:"HTML"
       },
@@ -294,46 +294,17 @@ data(){
         title: "Cloning a website",
         github: "https://github.com/Kagisomphayi/bootstrap",
         netlify:"https://kagisomphayiclone.netlify.app",
-        description: "DOOB Website Clone",
+        description: "Cloning DOOB Website using Bootstrap,CSS & HTML.",
         img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
       },
       {
-        title: "Calculator",
+        title: "Javascript Calculator",
         github: "https://github.com/Kagisomphayi/Calculator",
         netlify:"https://kagisomphayicalculator.netlify.app/",
-        description: "Building a functioning calculator",
+        description: "Building a functioning calculator(HTML,CSS & JS",
         img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
       },
       
-                {
-        title: "Sonic vs Road Runner",
-        github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
-        netlify:"https://kagisomphayiroadrunner.netlify.app",
-        description: "A race between road runner and sonic.",
-        img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
-        // html:"HTML"
-      },
-      {
-        title: "Ecommerce Website",
-        github: "https://github.com/Kagisomphayi/ASICSSTORE",
-        netlify:"https://kagisomphayiasics.netlify.app/",
-        description: "Ecommerce website built with JS, HTML and CSS.",
-        img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
-      },
-      {
-        title: "Cloning a website",
-        github: "https://github.com/Kagisomphayi/bootstrap",
-        netlify:"https://kagisomphayiclone.netlify.app",
-        description: "DOOB Website Clone",
-        img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
-      },
-      {
-        title: "Calculator",
-        github: "https://github.com/Kagisomphayi/Calculator",
-        netlify:"https://kagisomphayicalculator.netlify.app/",
-        description: "Building a functioning calculator",
-        img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
-      },
       
 ]
          
@@ -344,4 +315,6 @@ data(){
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
