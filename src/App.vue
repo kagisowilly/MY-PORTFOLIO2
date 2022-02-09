@@ -1,6 +1,6 @@
 <template>
 
-<Navbar/>
+  <Navbar/>
   <Home />
   <About />
   <Resume />

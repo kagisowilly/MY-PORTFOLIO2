@@ -11,71 +11,25 @@
             <div id="carouselExampleControlsNoTouching" class="carousel testi slide text-black col-lg-10"
                 data-bs-touch="false" data-bs-interval="false">
 
-                <div class="row text-center ">
-                    <div class="carousel-inner pb-5 text-white">
-                        <div class="carousel-item pt-3">
+                <div class="row text-center">
+                    <div class="carousel-inner text-white" v-for="(testimonial, index) in testimonials" :key="index">
+                        <div class="carousel-item pt-3" :class="{ active: index == isActive }">
                             <img src="@/assets/Aza-min.jpg" class="d-block img-thumbnail" alt="...">
-                            <div class="">
-                                <p class="h5 names text-center">Azabenathi Pupuma</p>
-                                <b class="roles">Web Developer</b>
-
-                                <p class="text-center mt-3">Kagiso is one of the hard workers you could come across.
-                                    <br> He
-                                    always
-                                    ensure
-                                    that he gets the hang of his work and he does not stop until he finishes. He is goal
-                                    oriented.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item pt-3">
-                            <img src="@/assets/Godwin.jpeg" class="d-block img-thumbnail" alt="...">
-                            <div class="">
-                                <p class="h5 names text-center">Godwin Dzvapatsva</p>
-                                <b class="roles">Head of Curriculum and Learning @ 'lifechoices coding
-                                    acardemy'</b>
-                                <p class="text-center mt-3">Kagiso is a diligent student who thrives to do the best and
-                                    is
-                                    always
-                                    time concious. <br> I
-                                    recommend him.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div class="carousel-item pt-3">
-                            <img src="@/assets/nomv-min.jpg" class="d-block img-thumbnail" alt="...">
-                            <div>
-                                <p class="h5 names text-center">Nomzuyiseko Mpofu</p>
-                                <b class="roles">Web Developer</b>
-                                <p class="text-center mt-3">Kagiso is a person of humble character, <br> easy to work
-                                    with
-                                    and so
-                                    far
-                                    he shown dedication and great work ethic.I admire his time management.</p>
-                            </div>
-
-                        </div>
-                        <div class="carousel-item active pt-3">
-                            <img src="@/assets/Lilitha-min.jpg" class="d-block img-thumbnail" alt="...">
-                            <div class="">
-                                <p class="h5 names text-center">Lilitha Mantini</p>
-                                <b class=" roles">Web Developer</b>
-                                <p class="text-center mt-3">I have worked closely on a group with Kagiso. He's a team
-                                    player
-                                    with
-                                    good communication skills, <br> not afraid of challenges and always willing to
-                                    assist
-                                    where
-                                    he can.</p>
+                            <div class="text-center ">
+                                <p class="h5 names text-center">{{ testimonial.name }}</p>
+                                <b class="roles">{{ testimonial.role }}</b>
+                                <div class=" "><p class="text-center mt-3">{{ testimonial.description }}</p></div>
+                                 
+                                
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button"
+                    <button class="carousel-control-prev" type="button" @click="changePrevTesimonial"
                         data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button"
+                    <button class="carousel-control-next" type="button" @click="changeNextTesimonial"
                         data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -94,50 +48,67 @@
 
 <script>
 export default {
-//   data() {
-//     return {
-//       testimonials: [
-//         {
-//           name: "Azabenathi Pupu",
-//           image: "",
-//           role: `Web Developer`,
-//           description: `Kagiso is one of the hard workers you could come across.
-//                         He always ensure that he gets the hang of his work and he does not 
-//                          stop until he finishes. He is goal oriented.`,
-//         },
-//         {
-//           name: "Godwin Dzvapatsva",
-//           image: ``,
-//           role: `Head Of Curriculum And Learning @ Lifechoices Coding
-//                                     Acardemy`,
-//           description: `Kagiso is a diligent student who thrives to do the best and
-//                                     is
-//                                     always
-//                                     time concious.I
-//                                     recommend him.`,
-//         },
-//         {
-//           name: "Nomzuyiseko Mpofu",
-//           image: ``,
-//           role: " Web designer",
+  data() {
+    return {
+      isActive: 0,
+      testimonials: [
+        {
+          name: "Azabenathi Pupu",
+          image: "",
+          role: `Web Developer`,
+          description: `Kagiso is one of the hard workers you could come across.
+                        He always ensure that he gets the hang of his work and he does not 
+                         stop until he finishes. He is goal oriented.`,
+        },
+        {
+          name: "Godwin Dzvapatsva",
+          image: ``,
+          role: `Head Of Curriculum And Learning @ Lifechoices Coding
+                                    Acardemy`,
+          description: `Kagiso is a diligent student who thrives to do the best and
+                                    is
+                                    always
+                                    time concious.I
+                                    recommend him.`,
+        },
+        {
+          name: "Nomzuyiseko Mpofu",
+          image: ``,
+          role: " Web designer",
 
-//           description: `Kagiso is a person of humble character easy to work with and so far
-//                          he shown dedication and great work ethic.I admire his time management.`,
-//         },
-//         {
-//           name: "Lilitha Mantini",
-//           image: ``,
-//           role: "Web Develope",
+          description: `Kagiso is a person of humble character easy to work with and so far
+                         he shown dedication and great work ethic.I admire his time management.`,
+        },
+        {
+          name: "Lilitha Mantini",
+          image: ``,
+          role: "Web Developer",
 
-//           description: `Kagiso is one of the hard workers you could come across. 
-//           He always ensure that he gets the hang of his work and he does not
-//            stop until he finishes. He is goal oriented.`,
-//         },
+          description: `Kagiso is one of the hard workers you could come across. 
+          He always ensure that he gets the hang of his work and he does not
+           stop until he finishes. He is goal oriented.`,
+        },
 
 
-//       ],
-//     };
-//   },
+      ],
+    };
+  },
+  methods: {
+    changeNextTesimonial() {
+      if(this.isActive < 3)
+        this.isActive++;
+      else
+        this.isActive = 0;
+    },
+    changePrevTesimonial() {
+      if(this.isActive < 4) {
+        this.isActive--;
+      }
+      if(this.isActive < 0 ) {
+        this.isActive = 3;
+      }
+    },
+  }
 };
 </script>
 
@@ -177,5 +148,16 @@ export default {
 
 .names{
   font-size: xx-large;
+}
+
+.carousel-control-next-icon:hover {
+background-color: white;
+}
+.carousel-control-prev-icon:hover {
+background-color: white;
+}
+.description{
+  width: 700px !important
+  ;
 }
 </style>

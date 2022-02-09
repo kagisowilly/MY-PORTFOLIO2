@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" style="background-color: black">
+  <section class="contact-background" id="contact" style="background-color: black">
     <div class="container justify-content-center">
       <form @submit.prevent="handleSubmit" class="contactMe">
         <h2 class="text-center display-6 fw-bold mb-3 subtitlee ">
@@ -51,6 +51,11 @@
         </div>
       </div>
     </div>
+
+          <div class="container">
+        <hr class="my-1 bg-white" />
+      </div>
+
   </section>
 
   <!-- <p>Email: {{ email }}</p>
@@ -104,7 +109,7 @@ input{
   border: none;
   border-bottom: 1px solid #ddd;
   color: #555;
-  background-color: black;
+  background-color: rgba(0,0,0,.25);
 }
 
 

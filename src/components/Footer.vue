@@ -1,6 +1,6 @@
 <template>
     <!-- Footer -->
-  <footer class="page-footer font-small teal pt-2 bg-dark">
+  <footer class="page-footer font-small teal pt-2 bg-black">
     <div class="container text-center text-md-left">
       <div class="d-grid gap-4 d-flex justify-content-center">
         <a
@@ -21,9 +21,6 @@
           class="text-muted rounded icons"
           ><i class="bi icn bi-twitter footer-icons"></i
         ></a>
-      </div>
-      <div class="container">
-        <hr class="my-1 bg-white" />
       </div>
 
       <!-- Copyright -->

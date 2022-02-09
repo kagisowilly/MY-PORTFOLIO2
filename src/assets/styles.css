@@ -74,7 +74,7 @@ u {
       url(./background.jpg);
     overflow-x: hidden;
     overflow-y: hidden;
-    background-position: center;
+    background-position: 70%;
   }
   .btn{
     background-color:rgb(155, 44, 155)!important;
@@ -242,6 +242,21 @@ color: rgb(155, 44, 155);
       rgba(0, 0, 0, 0.7)
     ),
     url(./background2.jpg);
+  overflow-x: hidden;
+  background-position: center;
+ }
+
+ .contact-background{
+  margin-top: 0;
+  background-image: url("/background6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./background6.jpg);
   overflow-x: hidden;
   background-position: center;
  }

@@ -2,7 +2,7 @@
     <!-- NAVBAR -->
   <div>
     <nav
-      class="navbar navbar-expand-md navbar-dark border-muted bg-dark position-fixed w-100 p-0"
+      class="navbar navbar-expand-md navbar-dark border-muted bg-black position-fixed w-100 p-0"
       aria-label="Third navbar example"
       style="z-index: 10"
     >
@@ -105,9 +105,25 @@
 </template>
 
 <script>
-export default {
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container ul li");
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
 
-}
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+});
 </script>
 
 <style>

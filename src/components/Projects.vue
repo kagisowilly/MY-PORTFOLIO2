@@ -48,218 +48,6 @@
               </div>
             </div>
           </div>
-          <!-- 
-          <div
-            class="col-lg-3 "
-            style="display: flex; justify-content: center"
-          >
-            <div class="card shadow ani-card" style="width: 18rem">
-              <img
-                src="images/projects/Ecom.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">Ecommerce Website</h4>
-                <p class="card-text">
-                  Ecommerce website built with JS, HTML and CSS.
-                </p>
-              </div>
-              <ul class="list-group px-0 list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>proj
-                <li class="list-group-item">JS</li>
-              </ul>
-              <div class="card-body">
-                <a
-                  target="_blank"
-                  href="https://kagisomphayiasics.netlify.app/"
-                  class="card-link"
-                >
-                  <imgproj
-                    src="images/projects/netlify_icon_158189.png"
-                    class="netlify"
-                    alt="Netlify"
-                /></a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Kagisomphayi/My-Portfolio"
-                  class="card-link"
-                  ><img
-                    src="images/projects/github.png"
-                    class="github"
-                    alt="github"https://github.com/Kagisomphayi/My-Portfolio
-          </div> -->
-          <!-- bhvghjg -->
-          <!-- <div class="col-lg-3" style="display: flex; justify-content: center">
-            <div class="card shadow ani-card " style="width: 18rem">
-              <img
-                src="images/projects/bootstrapclone.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">DOOB Website Clone</h4>
-                <p class="card-text">Cloning a website</p>
-              </div>
-
-              <ul class="list-group px-0 list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-              </ul>
-
-              <div class="card-body">
-                <a
-                  target="_blank"
-                  href="https://kagisomphayiclone.netlify.app"
-                  class="card-link"
-                  ><img
-                    src="images/projects/netlify_icon_158189.png"
-                    class="netlify"
-                    alt="netlify"
-                /></a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Kagisomphayi/bootstrap"
-                  class="card-link"
-                  ><img
-                    src="images/projects/github.png"
-                    class="github"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
-          </div>
-
-           -->
-
-          <!-- <div
-            class="col-lg-3"
-            style="display: flex; justify-content: center"
-          >
-            <div class="card col shadow ani-card" style="width: 18rem">
-              <img
-                src="images/projects/calculator.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">Calculator</h4>
-                <p class="card-text">Building a functioning calculator</p>
-              </div>
-              <ul class="list-group px-0 list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-                <li class="list-group-item">JS</li>
-              </ul>
-              <div class="card-body">
-                <a
-                  target="_blank"
-                  href="https://kagisomphayicalculator.netlify.app/"
-                  class="card-link"
-                >
-                  <img
-                    src="images/projects/netlify_icon_158189.png"
-                    class="netlify"
-                    alt="Netlify"
-                /></a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Kagisomphayi/Calculator"
-                  class="card-link"
-                  ><img
-                    src="images/projects/github.png"
-                    class="github"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
-          </div>
-
-           <div class="col-lg-3" style="display: flex; justify-content: center">
-            <div class="card shadow ani-card " style="width: 18rem">
-              <img
-                src="images/projects/bootstrapclone.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">DOOB Website Clone</h4>
-                <p class="card-text">Cloning a website</p>
-              </div>
-
-              <ul class="list-group px-0 list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-              </ul>
-
-              <div class="card-body">
-                <a
-                  target="_blank"
-                  href="https://kagisomphayiclone.netlify.app"
-                  class="card-link"
-                  ><img
-                    src="images/projects/netlify_icon_158189.png"
-                    class="netlify"
-                    alt="netlify"
-                /></a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Kagisomphayi/bootstrap"
-                  class="card-link"
-                  ><img
-                    src="images/projects/github.png"
-                    class="github"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
-          </div>
-
-           -->
-
-          <!-- <div
-            class="col-lg-3"
-            style="display: flex; justify-content: center"
-          >
-            <div class="card shadow ani-card col " style="width: 18rem">
-              <img
-                src="images/projects/calculator.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h4 class="card-title">Calculator</h4>
-                <p class="card-text">Building a functioning calculator</p>
-              </div>
-              <ul class="list-group px-0 list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-                <li class="list-group-item">JS</li>
-              </ul>
-              <div class="card-body">
-                <a
-                  target="_blank"
-                  href="https://kagisomphayicalculator.netlify.app/"
-                  class="card-link"
-                >
-                  <img
-                    src="images/projects/netlify_icon_158189.png"
-                    class="netlify"
-                    alt="Netlify"
-                /></a>
-                <a
-                  target="_blank"
-                  href="https://github.com/Kagisomphayi/Calculator"
-                  class="card-link"
-                  ><img
-                    src="images/projects/github.png"
-                    class="github"
-                    alt="github"
-                /></a>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -273,44 +61,50 @@
 export default {
 data(){
   return{
-        projects: [
+    projects:null,
+//         projects: [
 
-          {
-        title: "Sonic vs Road Runner",
-        github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
-        netlify:"https://kagisomphayiroadrunner.netlify.app",
-        description: "A race between road runner and sonic.(CSS & HTML)",
-        img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
-        // html:"HTML"
-      },
-      {
-        title: "Ecommerce Website",
-        github: "https://github.com/Kagisomphayi/ASICSSTORE",
-        netlify:"https://kagisomphayiasics.netlify.app/",
-        description: "Ecommerce website built with JS, HTML and CSS.",
-        img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
-      },
-      {
-        title: "Cloning a website",
-        github: "https://github.com/Kagisomphayi/bootstrap",
-        netlify:"https://kagisomphayiclone.netlify.app",
-        description: "Cloning DOOB Website using Bootstrap,CSS & HTML.",
-        img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
-      },
-      {
-        title: "Javascript Calculator",
-        github: "https://github.com/Kagisomphayi/Calculator",
-        netlify:"https://kagisomphayicalculator.netlify.app/",
-        description: "Building a functioning calculator(HTML,CSS & JS",
-        img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
-      },
-      
-      
-]
+//           {
+//         title: "Sonic vs Road Runner",
+//         github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
+//         netlify:"https://kagisomphayiroadrunner.netlify.app",
+//         description: "A race between road runner and sonic.(CSS & HTML)",
+//         img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
+//         // html:"HTML"
+//       },
+//       {
+//         title: "Ecommerce Website",
+//         github: "https://github.com/Kagisomphayi/ASICSSTORE",
+//         netlify:"https://kagisomphayiasics.netlify.app/",
+//         description: "Ecommerce website built with JS, HTML and CSS.",
+//         img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
+//       },
+//       {
+//         title: "Cloning a website",
+//         github: "https://github.com/Kagisomphayi/bootstrap",
+//         netlify:"https://kagisomphayiclone.netlify.app",
+//         description: "Cloning DOOB Website using Bootstrap,CSS & HTML.",
+//         img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
+//       },
+//       {
+//         title: "Javascript Calculator",
+//         github: "https://github.com/Kagisomphayi/Calculator",
+//         netlify:"https://kagisomphayicalculator.netlify.app/",
+//         description: "Building a functioning calculator(HTML,CSS & JS",
+//         img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
+//       },
+// ]
          
-  } 
-   }
-
+  }
+   },
+mounted() {
+    fetch("https://kagisomphayiportfolio.herokuapp.com/projects")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        this.projects = data;
+      });
+  },
 
 };
 </script>
