@@ -30,8 +30,8 @@
                 class="d-block img-thumbnail"
                 alt="..."
               />
-              <div class="text-center">
-                <p class="h5 names text-center">{{ testimonial.name }}</p>
+              <div class="text-center mt-5 ">
+                <p class="h5 names text-center mt-3">{{ testimonial.name }}</p>
                 <b class="roles">{{ testimonial.role }}</b>
                 <div class=" ">
                   <p class="text-center mt-3">{{ testimonial.description }}</p>
@@ -110,12 +110,15 @@ export default {
 .carousel-item {
   /* background-color: #d4d9df; */
   border-radius: 15px;
-  height: 450px;
+  height: 500px;
 }
 
 .carousel-control-prev-icon {
   background-color: rgb(155, 44, 155);
   margin-bottom: 230px;
+}
+.carousel{
+  margin-top:150px;
 }
 
 .carousel-control-prev {
