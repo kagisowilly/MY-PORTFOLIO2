@@ -1,11 +1,14 @@
 <template>
   <section class="contact-background" id="contact" style="background-color: black">
+        <div class="container hr">
+      <hr class="bg-white" >
+    </div>
     <div class="container justify-content-center">
       <form @submit.prevent="handleSubmit" class="contactMe">
         <h2 class="text-center display-6 fw-bold mb-3 subtitlee ">
           <u>Contact Me</u>
         </h2>
-        <div id="emailHelp" class="pb-5 form-text text-center">
+        <div id="emailHelp" class="pb-2 form-text text-center">
          <p>Let's get in touch. <br />I will never share your information with
           anyone.</p> 
         </div>
@@ -23,7 +26,7 @@
 
         <input type="text" class="text-white" v-model="message" />
 
-        <div class="submit mb-5">
+        <div class="submit mb-3">
           <button class="rounded-pill mb-3  btn btn-warning button-body">
             <h5 id="sub" class="text-white mb-0">Submit</h5>
           </button>
@@ -35,33 +38,20 @@
     <div class="container text-white">
       <div class="row text-center ">
         <div class="col-lg-4 col-sm-4 coL-md-3 ">
-          <i class="bi bi-envelope contact-icons"></i>
-          <h5>Email:</h5>
-          <p>mphayiw@gmail.com</p>
+          <i class="bi bi-envelope contact-icons"></i><p>mphayiw@gmail.com</p>
         </div>
-        <div class="col col-lg-4 col-sm-4 coL-md-3">
-          <i class="bi bi-telephone-forward contact-icons"></i>
-          <h5>phone Number:</h5>
-          <p>(+27)79 928 2407</p>
+        <div class="col col-lg-4 col-sm-4 coL-md-3 mx-">
+          <i class="bi bi-telephone contact-icons"></i><p>(+27)79 928 2407</p>
         </div>
         <div class="col col-lg-4 col-sm-4 coL-md-6">
-          <i class="bi bi-geo-alt contact-icons"></i>
-          <h5>Address:</h5>
-          <p>Cape Town, South Africa</p>
+          <i class="bi bi-geo-alt contact-icons"></i><p>Cape Town, South Africa</p>
         </div>
       </div>
     </div>
 
-          <div class="container">
-        <hr class="my-1 bg-white" />
-      </div>
 
   </section>
 
-  <!-- <p>Email: {{ email }}</p>
-  <p>Password: {{ password }}</p>
-  <p>Role: {{ role }}</p>
-  <p>Terms and Conditions: {{ terms }}</p> -->
 </template>
 
 <script>
@@ -77,10 +67,21 @@ export default {
   methods: {
 
     handleSubmit() {
-      console.log(this.name);
-      console.log(this.email);
-      console.log(this.subject);
-      console.log(this.message);
+
+fetch('https://kagisomphayiportfolio.herokuapp.com/contact', {
+  method: 'POST',
+  body: JSON.stringify({
+    name: this.name,
+    email: this.email,
+    subject: this.subject,
+    message: this.message,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
     },
   },
 };

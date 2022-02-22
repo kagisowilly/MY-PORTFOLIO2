@@ -85,8 +85,7 @@ u {
   
     /* BACKGROUND COLOR */
     hr {
-      margin-top: 0px;
-      margin-bottom: 0px;
+      margin-bottom: 0px !important;
       background-color: black;
     }
     /* icons */
@@ -156,7 +155,7 @@ color: rgb(155, 44, 155);
   /* CARD */
   .card {
       width: 50%;
-      height: 400px;
+      height: 410px;
 
     }
     
@@ -193,8 +192,8 @@ color: rgb(155, 44, 155);
       background-size: cover;
       background-image: linear-gradient(
           0deg,
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
         ),
         url(./background3.jpg);
       overflow-x: hidden;
@@ -202,14 +201,15 @@ color: rgb(155, 44, 155);
     }
 
     #skills{
+      height: 100vh;
       margin-top: 0;
       background-image: url("/background4.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-image: linear-gradient(
           0deg,
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
         ),
         url(./background4.jpg);
       overflow-x: hidden;
@@ -223,8 +223,8 @@ color: rgb(155, 44, 155);
       background-size: cover;
       background-image: linear-gradient(
           0deg,
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
         ),
         url(./background5.jpg);
       overflow-x: hidden;
@@ -232,14 +232,15 @@ color: rgb(155, 44, 155);
  }
 
  .testimonial-background{
+   height: 100vh;
   margin-top: 0;
   background-image: url("/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     url(./background2.jpg);
   overflow-x: hidden;
@@ -247,6 +248,7 @@ color: rgb(155, 44, 155);
  }
 
  .contact-background{
+
   margin-top: 0;
   background-image: url("/background6.jpg");
   background-repeat: no-repeat;
@@ -260,10 +262,6 @@ color: rgb(155, 44, 155);
   overflow-x: hidden;
   background-position: center;
  }
-
-
-
-      
 
     @media all and (max-width: 991px) {
     .resu {
@@ -290,6 +288,12 @@ color: rgb(155, 44, 155);
   }
   
   @media all and (max-width: 767px) {
+
+    .contact-background{
+      height: auto;
+
+    }
+   
     .resu {
       width: 100%;
       

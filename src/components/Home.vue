@@ -11,7 +11,7 @@
           <div class="col-lg-6 mx-auto">
             <div class="lead text-white">
               <p class="mt-3 text-white">
-                <span>| Frontend Developer |</span>
+                <span>| Aspiring Front-end Developer|</span>
                 <span> Designer |</span>
                 <span> Photographer |</span>
               </p>
@@ -42,7 +42,7 @@
           <a href="#about" class="text-white rounded-pill"
             ><button
               type="button"
-              class="rounded-pill mt-4 btn btn-sm btn-warning button-about"
+              class="rounded-pill mt-4 btn btn-sm button-about"
             >
               <h4 class="mb-0 abt">About me</h4>
               <i class="bi boot-arrow bi-arrow-down-short"></i>

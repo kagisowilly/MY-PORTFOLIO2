@@ -18,7 +18,7 @@
               <div class="resu shadow">
                 <div class="p-2">
                   <h3>
-                    <i class="bi bi-briefcase-fill"></i>{{resume.title}}
+                    <i class="bi bi-briefcase-fill"></i> {{resume.title}}
                   </h3>
                   <div style="margin-left: 30px">
                     <h6 class="text-muted">{{resume.period}}</h6>
@@ -50,7 +50,7 @@ export default {
   },
 
       mounted() {
-    fetch("https://kagisomphayiportfolio.herokuapp.com/resumes")
+    fetch("https://kagisomphayiportfolio.herokuapp.com/resume")
       .then((res) => res.json())
       .then(data => {
         console.log(data);
