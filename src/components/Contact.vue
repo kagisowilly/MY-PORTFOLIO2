@@ -27,7 +27,7 @@
         <input type="text" class="text-white" v-model="message" />
 
         <div class="submit mb-3">
-          <button class="rounded-pill mb-3  btn btn-warning button-body">
+          <button class="rounded-pill mb-3  btn button-body">
             <h5 id="sub" class="text-white mb-0">Submit</h5>
           </button>
         </div>
