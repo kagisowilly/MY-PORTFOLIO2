@@ -2,14 +2,15 @@
     <!-- NAVBAR -->
   <div>
     <nav
-      class="navbar navbar-expand-md navbar-dark border-muted bg-black position-fixed w-100 p-0"
+      class="navbar navbar-expand-md navbar-dark border-muted  position-fixed w-100 p-0"
       aria-label="Third navbar example"
-      style="z-index: 10"
+      style="z-index: 10;
+      background-color: rgb(19, 19, 19);"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home"
+        <a class="nav-brand " href="#home"
           ><img
-            class="navbar-brand img-responsive"
+            class="navbar-brand brand img-responsive"
             src="@/assets/Logo.png"
             alt=""
         /></a>
@@ -127,5 +128,15 @@ window.addEventListener("scroll", () => {
 </script>
 
 <style>
+/* .brand{
+  border: solid 1px rgb(47, 47, 47);
+  border-radius: 100% !important;
+  height: 100px !important;
+  width: 100px !important;
+}
+.nav.brand{
+  border-radius: 100% !important;
+  height:20px;
+} */
 
 </style>

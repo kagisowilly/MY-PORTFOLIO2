@@ -11,7 +11,7 @@
           <div class="col-lg-6 mx-auto">
             <div class="lead text-white">
               <p class="mt-3 text-white">
-                <span>| Aspiring Front-end Developer|</span>
+                <span>| Junior Front-end Developer|</span>
                 <span> Designer |</span>
                 <span> Photographer |</span>
               </p>
@@ -19,15 +19,15 @@
             <div class="d-grid gap-4 d-flex home-icon justify-content-center">
               <a
                 target="_blank"
-                href="https://github.com/Kagisomphayi"
-                class="text-white icons"
-                ><i class="bi icn social-icon bi-github"></i
-              ></a>
-              <a
-                target="_blank"
                 href="https://www.linkedin.com/in/kagiso-kagiso-5aab71219/"
                 class="text-white icons"
                 ><i class="bi icn social-icon bi-linkedin"></i
+              ></a>
+                <a
+                target="_blank"
+                href="https://github.com/Kagisomphayi"
+                class="text-white icons"
+                ><i class="bi icn social-icon bi-github"></i
               ></a>
               <a
                 target="_blank"
@@ -60,7 +60,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .boot-arrow {
   font-size: 25px;
   color:white;
@@ -75,5 +75,10 @@ export default {};
 .home-content{
 margin-top: 10%;
 margin-bottom: 18%;
+}
+.icons:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
 }
 </style>

@@ -8,7 +8,7 @@
         <h2 class="text-center display-6 fw-bold mb-3 subtitlee ">
           <u>Contact Me</u>
         </h2>
-        <div id="emailHelp" class="pb-2 form-text text-center">
+        <div id="emailHelp" class="pb-2 mb-2 form-text text-center">
          <p>Let's get in touch. <br />I will never share your information with
           anyone.</p> 
         </div>
@@ -44,7 +44,7 @@
           <i class="bi bi-telephone contact-icons"></i><p>(+27)79 928 2407</p>
         </div>
         <div class="col col-lg-4 col-sm-4 coL-md-6">
-          <i class="bi bi-geo-alt contact-icons"></i><p>Cape Town, South Africa</p>
+          <i class="bi bi-geo-alt contact-icons"></i><p>Firgrove Rural <br> Cape Town, South Africa</p>
         </div>
       </div>
     </div>

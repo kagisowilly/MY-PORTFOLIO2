@@ -1,10 +1,10 @@
 <template>
   <!-- Footer -->
   <section>
-    <footer class="page-footer font-small teal pt-2 bg-black">
-      <div class="container">
-        <hr class="bg-white">
-      </div>
+    <footer
+      class="page-footer font-small teal pt-2"
+      style="z-index: 10; background-color: rgb(19, 19, 19)"
+    >
       <div class="container text-center text-md-left">
         <div class="d-grid gap-4 d-flex justify-content-center">
           <a
@@ -37,7 +37,7 @@
   </section>
 </template>
 
-<script>
+<script scoped>
 export default {};
 </script>
 
@@ -52,5 +52,11 @@ export default {};
 }
 #footerr {
   color: rgb(155, 44, 155);
+}
+.icons:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  color: rgb(155, 44, 155) !important;
 }
 </style>

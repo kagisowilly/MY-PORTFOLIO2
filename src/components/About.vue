@@ -49,13 +49,36 @@
                 <td><b class="text-muted">Full name:</b> Kagiso Mphayi</td>
               </tr>
               <tr>
-                <td><b class="text-muted">Date of birth:</b> 01/07/1996</td>
+                <td><b class="text-muted">Date of birth:</b> 1996/07/01</td>
               </tr>
               <tr>
                 <td><b class="text-muted">Location:</b> Cape Town,South Africa</td>
               </tr>
               <tr>
                 <td><b class="text-muted">Cell Phone number:</b> 079 928 2407</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+                <div class="col-lg-6 col-md-5">
+          <table class="table  text-white table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Languages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>English</td>
+              </tr>
+              <tr>
+                <td>Setswana</td>
+              </tr>
+              <tr>
+                <td>Sesotho</td>
+              </tr>
+              <tr>
+                <td>Isizulu</td>
               </tr>
             </tbody>
           </table>
@@ -78,13 +101,13 @@
                 <td>Mind-Challenging Games</td>
               </tr>
               <tr>
-                <td>Soccer</td>
+                <td>Online gaming</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <div class="col col-lg-10 col-md-10">
+        <div class="col col-lg-6 col-md-10">
           <table class="table  text-white table-bordered">
             <thead>
               <tr>

@@ -41,10 +41,11 @@ u {
   
   .navbar-brand {
     border-radius: 100%;
-    height: 100px;
-    width: 60x;
-    padding-bottom: 4px !important;
-    padding-top: 3px !important;
+    border: solid 2px rgb(47, 47, 47);
+    height: 80px;
+    width: 100x;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
     margin-top: 0px !important;
     margin-bottom: 3px !important;
   }
@@ -80,7 +81,6 @@ u {
     background-color:rgb(155, 44, 155)!important;
     color: white;
     border: 2px solid rgb(39, 3, 39);
-    
   }
   
     /* BACKGROUND COLOR */
@@ -107,9 +107,6 @@ font-size: 35px !important;
 color: rgb(155, 44, 155);
     }
 
-    .social-icon:hover{
-        color: white;
-    }
 
     
 
@@ -203,7 +200,7 @@ color: rgb(155, 44, 155);
     #skills{
       height: 100vh;
       margin-top: 0;
-      background-image: url("/background4.jpg");
+      background-image: url("/background2.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-image: linear-gradient(
@@ -211,7 +208,7 @@ color: rgb(155, 44, 155);
           rgba(0, 0, 0, 0.6),
           rgba(0, 0, 0, 0.6)
         ),
-        url(./background4.jpg);
+        url(./background2.jpg);
       overflow-x: hidden;
       background-position: center;
     }
@@ -234,7 +231,7 @@ color: rgb(155, 44, 155);
  .testimonial-background{
    height: 100vh;
   margin-top: 0;
-  background-image: url("/background2.jpg");
+  background-image: url("/background4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(
@@ -242,7 +239,7 @@ color: rgb(155, 44, 155);
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url(./background2.jpg);
+    url(./background4.jpg);
   overflow-x: hidden;
   background-position: center;
  }
@@ -317,8 +314,8 @@ color: rgb(155, 44, 155);
       border-radius: 100%;
       height: 70px;
       width: 40x;
-      padding-bottom: 4px !important;
-      padding-top: 3px !important;
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
       margin-top: 0px !important;
       margin-bottom: 3px !important;
     }
@@ -397,8 +394,8 @@ color: rgb(155, 44, 155);
       border-radius: 100%;
       height: 50px;
       width: 30x;
-      padding-bottom: 4px !important;
-      padding-top: 3px !important;
+      padding-bottom: 0px !important;
+      padding-top: px !important;
       margin-top: 0px !important;
       margin-bottom: 3px !important;
     }
