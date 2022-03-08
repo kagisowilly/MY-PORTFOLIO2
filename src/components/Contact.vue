@@ -16,17 +16,17 @@
         </div>
 
         <label class="text-white">Name:</label>
-        <input name="name" type="text" class="text-white" v-model="name" required />
+        <input name="name" type="text" class="text-white"  required />
 
         <label class="text-white">Email:</label>
-        <input name="email" type="email" class="text-white" v-model="email" required />
+        <input name="email" type="email" class="text-white"  required />
 
         <label  class="text-white">Subject:</label>
-        <input name="subject" type="text" class="text-white" v-model="subject" />
+        <input name="subject" type="text" class="text-white"  />
 
         <label class="text-white">Message:</label>
 
-        <input name="message" type="text" class="text-white" v-model="message" />
+        <input name="message" type="text" class="text-white"  />
 
         <div class="submit mb-3">
           <button @click="submit" class="rounded-pill mb-3  btn button-body">
@@ -58,34 +58,34 @@
 
 <script>
 export default {
-  data() {
-    return {
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    };
-  },
-  methods: {
+  // data() {
+  //   return {
+  //     name: "",
+  //     email: "",
+  //     subject: "",
+  //     message: "",
+  //   };
+  // },
+//   methods: {
 
-    handleSubmit() {
+//     handleSubmit() {
 
-fetch('https://kagisomphayiportfolio.herokuapp.com/contact', {
-  method: 'POST',
-  body: JSON.stringify({
-    name: this.name,
-    email: this.email,
-    subject: this.subject,
-    message: this.message,
-  }),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
-  },
-})
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-    },
-  },
+// fetch('https://kagisomphayiportfolio.herokuapp.com/contact', {
+//   method: 'POST',
+//   body: JSON.stringify({
+//     name: this.name,
+//     email: this.email,
+//     subject: this.subject,
+//     message: this.message,
+//   }),
+//   headers: {
+//     'Content-type': 'application/json; charset=UTF-8',
+//   },
+// })
+//   .then((response) => response.json())
+//   .then((json) => console.log(json));
+//     },
+//   },
 };
 </script>
 
