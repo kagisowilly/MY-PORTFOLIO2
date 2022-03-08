@@ -4,7 +4,9 @@
       <hr class="bg-white" >
     </div>
     <div class="container justify-content-center">
-      <form @submit.prevent="handleSubmit" class="contactMe">
+      <form action="https://formspree.io/f/xwkylkad"
+      method="post"
+      target="_blank" class="contactMe">
         <h2 class="text-center display-6 fw-bold mb-3 subtitlee ">
           <u>Contact Me</u>
         </h2>
@@ -14,20 +16,20 @@
         </div>
 
         <label class="text-white">Name:</label>
-        <input  type="text" class="text-white" v-model="name" required />
+        <input name="name" type="text" class="text-white" v-model="name" required />
 
         <label class="text-white">Email:</label>
-        <input type="email" class="text-white" v-model="email" required />
+        <input name="email" type="email" class="text-white" v-model="email" required />
 
-        <label class="text-white">Subject:</label>
-        <input type="text" class="text-white" v-model="subject" />
+        <label  class="text-white">Subject:</label>
+        <input name="subject" type="text" class="text-white" v-model="subject" />
 
         <label class="text-white">Message:</label>
 
-        <input type="text" class="text-white" v-model="message" />
+        <input name="message" type="text" class="text-white" v-model="message" />
 
         <div class="submit mb-3">
-          <button class="rounded-pill mb-3  btn button-body">
+          <button @click="submit" class="rounded-pill mb-3  btn button-body">
             <h5 id="sub" class="text-white mb-0">Submit</h5>
           </button>
         </div>
