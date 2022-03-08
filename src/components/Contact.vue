@@ -29,7 +29,7 @@
         <input name="message" type="text" class="text-white"  />
 
         <div class="submit mb-3">
-          <button @click="submit" class="rounded-pill mb-3  btn button-body">
+          <button type="submit" class="rounded-pill mb-3  btn button-body">
             <h5 id="sub" class="text-white mb-0">Submit</h5>
           </button>
         </div>
