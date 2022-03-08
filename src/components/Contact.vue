@@ -11,7 +11,7 @@
           <u>Contact Me</u>
         </h2>
         <div id="emailHelp" class="pb-2 mb-2 form-text text-center">
-         <p>Let's get in touch. <br />I will never share your information with
+         <p>Let's get in touch. <br />I will not share your information with
           anyone.</p> 
         </div>
 
